@@ -1,7 +1,6 @@
 from sympy import *
 import numpy as np
 from math import *
-import matplotlib.pyplot as plt 
 class ODE:
     def __init__(self,func):
         self.order=len(func) #order of the differential equation
